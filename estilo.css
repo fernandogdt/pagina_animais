@@ -1,0 +1,26 @@
+/***** CSS ******/
+
+body{background-color: rgb(65, 58, 102);}
+
+.div_principal{ /* color:rgb(190, 10, 25) ;  /*  position: fixed; */
+    font-family: 'Verdana'; /*
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; */ }
+.div_principal img {width:200px}
+
+
+.titulo 
+{width: 100%; height: 100px; background-color:#fff; position: relative; top:0; color: #10990b; text-align: center;}
+/*
+#titulo h3
+{width: 100%; height: 100px; background-color:#fff; position: relative; top:0; color: #e0168c;}
+
+*/
+/*
+#vaca{width:20px}
+*/
+
+/* #div_tabela{background-color: #129884} */
+#div_tabela table {background-color: #126298}
