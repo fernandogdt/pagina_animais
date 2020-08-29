@@ -56,10 +56,26 @@ function soundThunder(){
     check = true;
 }*/
 
-function mudaimagem(){
-    document.getElementById("31").src="imagem/cow-2896329_1920.jpg";
-  //  alert("trocou");
+function mudaimagem(cdimagem){
     
+    console.log(cdimagem);
+  
+    switch (cdimagem) {
+        case "31":  document.getElementById(cdimagem).src="imagem/cow-2896329_1920.jpg";
+                    beep.src = "som\\COW_1.wav";
+                    beep.play();
+                break;
+        case "32":  document.getElementById(cdimagem).src="imagem/bonobos-2481776_1280.jpg";
+                    beep.src = "som\\MONKEY_1.wav";
+                    beep.play();
+                break;
+        default: alert("Nada ainda");
+                break;
+    
+            }
+  //  document.getElementById(cdimagem).src="imagem/cow-2896329_1920.jpg";
+  //  alert("trocou");
+  
 }
 
 function voltaimagem(){
